@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         VIEWING AND TERMINATING SYSTEM PROCESSES                             ║
+║               (Xem và Terminate Processes)                                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Xem và Terminate Processes
+  Mục tiêu   : Sử dụng ps, kill, top
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • ps (Process Status)
+      • Xem snapshot processes
+      • ps -f : Full format
+      • ps -e : All processes
+      • ps -u user : Processes của user cụ thể
+
+  • kill
+      • Terminate process
+      • kill PID : SIGTERM (15) – graceful shutdown
+      • kill -9 PID : SIGKILL – force terminate
+
+  • top
+      • Real-time view processes và resource usage
+      • Tương tác: k (kill), r (renice), h (help), q (quit)
+
+  • Minh họa
+      • ps -ef | grep ssh
+      • kill process
+      • top để xem CPU/memory, kill trong interface
+
+  • Best Practices
+      • Sử dụng SIGTERM trước khi SIGKILL
+      • Giám sát với top để phát hiện process chiếm tài nguyên
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Quản lý processes là kỹ năng thiết yếu để duy trì hệ thống ổn định. 
+
+  Thành thạo ps, kill, top giúp bạn kiểm soát, troubleshoot và tối ưu hiệu suất.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Basic Networking.
+────────────────────────────────────────────────────────────────

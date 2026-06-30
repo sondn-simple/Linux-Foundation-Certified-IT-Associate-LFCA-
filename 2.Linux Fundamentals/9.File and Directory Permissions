@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              FILE AND DIRECTORY PERMISSIONS                                  ║
+║               (Quyền File và Thư mục)                                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : File and Directory Permissions
+  Mục tiêu   : Sử dụng chown, chgrp, chmod để quản lý quyền
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Cấu trúc Quyền
+      • Owner (User) - Group - Other
+      • Permission: Read (r/4), Write (w/2), Execute (x/1)
+
+  • Lệnh Quản lý Quyền
+      • chown : Thay đổi owner và group (‑R: recursive)
+      • chgrp : Thay đổi group
+      • chmod : Thay đổi permission (symbolic hoặc octal)
+
+  • Symbolic Mode
+      • u (user), g (group), o (other), a (all)
+      • + (add), - (remove), = (set)
+      • Ví dụ: chmod g+w file
+
+  • Octal Mode
+      • 4 (read) + 2 (write) + 1 (execute)
+      • Ví dụ: 755 = rwxr-xr-x
+      • 644 = rw-r--r--
+
+  • Minh họa
+      • Tạo file/thư mục, xem quyền
+      • Thay đổi owner/group/permission
+      • Kiểm tra hiệu quả khi truy cập với user khác
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Quản lý quyền file và thư mục là nền tảng bảo mật Linux. 
+
+  Thành thạo chown, chgrp, chmod giúp kiểm soát truy cập an toàn và hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Bash History Management.
+────────────────────────────────────────────────────────────────

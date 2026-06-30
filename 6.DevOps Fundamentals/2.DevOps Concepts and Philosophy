@@ -1,0 +1,57 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               DEVOPS CONCEPTS AND PHILOSOPHY                                 ║
+║               (Khái niệm và Triết lý DevOps)                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : DevOps Concepts and Philosophy
+  Mục tiêu   : So sánh Traditional vs DevOps, benefits
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • DevOps là gì?
+      • Kết hợp Development và Operations
+      • Culture: Thay đổi cách teams tương tác
+      • Practices: Consistency, Automation
+      • Tools: Hỗ trợ IaC
+
+  • Traditional IT Model
+      • Silos: Dev, QA, Ops
+      • Competing goals (speed vs stability)
+      • Finger-pointing, limited visibility
+
+  • DevOps Model
+      • Shared responsibility
+      • Alignment of goals
+      • Collaboration & buy-in
+
+  • Benefits
+      • Tăng collaboration
+      • Tăng speed of delivery
+      • Consistency & Reliability
+      • Quick rollback
+
+  • Minh họa
+      • CI/CD pipeline
+      • Automation flow
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  DevOps là culture + practices + tools giúp unify Dev & Ops, tăng tốc độ và 
+  ổn định.
+
+  Infrastructure as Code là cốt lõi.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Continuous Integration/Continuous Delivery.
+────────────────────────────────────────────────────────────────

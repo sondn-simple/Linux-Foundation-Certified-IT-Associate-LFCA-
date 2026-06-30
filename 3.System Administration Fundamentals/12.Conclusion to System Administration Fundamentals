@@ -1,0 +1,59 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║       CONCLUSION TO SYSTEM ADMINISTRATION FUNDAMENTALS                       ║
+║               (Kết luận System Administration Fundamentals)                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG KẾT PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  • Root User & Elevated Permissions
+      • /etc/sudoers, sudoers.d (visudo)
+      • su, sudo, sshd_config (disable root login)
+
+  • Monitoring Resource Utilization
+      • sar, vmstat, free, df
+
+  • Backups and Compression
+      • tar (archive, gzip, bzip2, xz)
+      • rsync (copy/sync)
+
+  • Common System Applications
+      • Apache (httpd), Postfix, NTP/Chrony
+      • Config files: httpd.conf, main.cf, ntp.conf, chrony.conf
+
+  • Viewing and Managing Log Files
+      • /var/log/messages (Red Hat), /var/log/syslog (Debian)
+      • journalctl, logrotate
+
+  • Configuring Network Interfaces
+      • ifcfg (Red Hat), interfaces (Debian), nmcli
+
+  • Managing Network Access and Security
+      • firewalld, firewall-cmd
+      • sshd_config (AllowUsers, AllowGroups)
+
+  • Runlevels and Targets
+      • SysV Init runlevels vs Systemd targets
+      • systemctl get-default, set-default, isolate
+
+  • Basic SELinux Implementation and Tools
+      • Modes: enforcing, permissive, disabled
+      • Context: user:role:type:range
+      • semanage, getenforce, setsebool, chcon, restorecon
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần System Administration Fundamentals trang bị kiến thức toàn diện để quản 
+  trị Linux server: root, monitoring, backup, applications, logs, networking, 
+  security, targets, SELinux.
+
+  Hãy ôn quiz và thực hành lab để củng cố.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Hẹn gặp lại ở phần Cloud Computing Fundamentals.
+────────────────────────────────────────────────────────────────

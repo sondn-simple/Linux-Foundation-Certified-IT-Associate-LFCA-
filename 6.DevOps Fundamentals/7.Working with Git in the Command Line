@@ -1,0 +1,55 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               WORKING WITH GIT IN THE COMMAND LINE                           ║
+║               (Làm việc với Git trong Command Line)                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Working with Git
+  Mục tiêu   : Cài đặt, repo, commit, branching
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Cài đặt Git
+      • yum install git (RHEL), apt install git (Debian)
+
+  • Config Git
+      • git config --global user.email
+      • git config --global user.name
+
+  • Tạo Local Repository
+      • mkdir project
+      • cd project
+      • git init
+
+  • Add & Commit Files
+      • git add .
+      • git commit -m "message"
+      • git status
+
+  • Branching & Merging
+      • git branch new_branch
+      • git checkout -b old_branch
+      • git merge old_branch
+
+  • Minh họa
+      • Tạo file, commit, branch, merge
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Làm việc với Git qua command line là kỹ năng cốt lõi của DevOps. 
+
+  Hiểu init, add, commit, branch, merge giúp quản lý code hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Conclusion to DevOps Fundamentals.
+────────────────────────────────────────────────────────────────

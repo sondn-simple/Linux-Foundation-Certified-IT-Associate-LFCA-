@@ -1,0 +1,52 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║             DISTRIBUTED VERSION CONTROL WITH GIT                             ║
+║               (Distributed Version Control với Git)                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Distributed Version Control with Git
+  Mục tiêu   : Khái niệm Git và common commands
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Git là gì?
+      • Open-source distributed version control
+      • Clone entire repository locally
+      • Branching & Merging
+      • Speed & performance
+      • Staging area
+
+  • Minh họa
+      • Primary branch + developer branches
+
+  • Common Git Commands
+      • git init : Khởi tạo repo
+      • git add : Thêm file vào staging
+      • git commit -m "message"
+      • git branch, git checkout -b
+      • git merge
+      • git remote, git clone, git pull, git push
+
+  • Key Takeaways
+      • Distributed, branching, staging
+      • Commands cơ bản và remote
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Git là công cụ version control phổ biến nhất, hỗ trợ collaboration mạnh mẽ. 
+
+  Hiểu branching, merging và commands là nền tảng DevOps.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Working with Git in the Command Line.
+────────────────────────────────────────────────────────────────

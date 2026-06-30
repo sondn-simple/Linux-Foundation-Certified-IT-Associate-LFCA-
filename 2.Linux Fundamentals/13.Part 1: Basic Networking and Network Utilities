@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         PART 1: BASIC NETWORKING AND NETWORK UTILITIES                       ║
+║               (Phần 1: Networking Cơ bản và Công cụ Mạng)                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Basic Networking & Utilities
+  Mục tiêu   : Hiểu networking cơ bản và sử dụng ip, dig, ping, ss
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Networking Cơ bản
+      • IP addressing
+      • Loopback interface (127.0.0.1 / ::1)
+      • Router: Kết nối giữa các mạng
+
+  • Lệnh ip
+      • ip addr show : Xem IP và interface
+      • ip link show : Xem trạng thái interface
+      • ip route show : Xem routing table
+      • Thay đổi IP (không persist sau reboot)
+
+  • Các Lệnh Khác
+      • ss : Xem sockets và connections
+      • dig : DNS lookup (thay thế nslookup)
+      • ping : Kiểm tra kết nối
+      • host : DNS lookup đơn giản
+
+  • Minh họa
+      • ip a show
+      • ip addr add/delete
+      • dig google.com
+      • ping google.com
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Networking là kỹ năng quan trọng để quản trị server và cloud. 
+
+  Thành thạo ip, ss, dig, ping giúp bạn kiểm tra, troubleshoot mạng hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi Phần 1! 
+Hẹn gặp lại ở Phần 2.
+────────────────────────────────────────────────────────────────

@@ -1,0 +1,50 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║            CONCLUSION TO SECURITY FUNDAMENTALS                               ║
+║               (Kết luận Security Fundamentals)                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG KẾT PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  • Security Basics
+      • Threat & Risk Assessment, Detection & Prevention
+      • Focus areas: Network, System, Data, Cloud
+      • Attacks: DoS/DDoS, Man-in-the-Middle, Malware, Internal
+
+  • Network Security
+      • Reduce services, local firewall, encryption
+      • Tools: firewall-cmd/ufw, ss/ps/lsof, scp/ssh/rsync, nmap, Wireshark
+
+  • System Security
+      • Kernel: Patches, module signing, GRUB password
+      • Application: Update, disable unused, dedicated users
+      • File System: Partitions, mount options, AIDE
+      • Authentication: SSH keys, strong passwords, limit sudo
+
+  • Data Security
+      • Disk/Partition/File/Container Encryption
+      • dm-crypt, LUKS, cryptsetup, GPG
+      • Offsite backups
+
+  • Cloud Security
+      • IAM (Identity, Authentication, Authorization)
+      • Data Security (at rest, in transit, key management)
+      • Network Security (VPC, perimeter, security groups)
+      • Compute-based Security
+      • Application Security (microservices, serverless, APIs)
+      • Monitoring & Policy (alerting, auditing, incident response)
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần Security Fundamentals chiếm 16% kỳ thi, bao quát từ basics đến cloud. 
+
+  Áp dụng best practices, tools và monitoring là chìa khóa bảo mật toàn diện.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Chúc bạn ôn thi tốt.
+────────────────────────────────────────────────────────────────

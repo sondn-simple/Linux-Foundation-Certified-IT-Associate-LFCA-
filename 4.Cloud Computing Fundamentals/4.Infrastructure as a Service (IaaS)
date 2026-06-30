@@ -1,0 +1,57 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   INFRASTRUCTURE AS A SERVICE (IaaS)                         ║
+║               (Infrastructure as a Service)                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : IaaS
+  Mục tiêu   : So sánh với on-premises, benefits, AWS example
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • IaaS là gì?
+      • Cung cấp building blocks: Compute, Storage, Networking
+      • Provider quản lý hạ tầng (datacenter, servers)
+      • Customer tự install/configure OS và applications
+      • Pay per usage
+
+  • So sánh On-Premises vs IaaS
+      • On-Premises: Quản lý toàn bộ stack
+      • IaaS: Provider quản lý hạ tầng, customer quản lý OS trở lên
+
+  • Lợi ích
+      • Giảm chi phí ban đầu
+      • Scale nhanh
+      • Giảm maintenance
+      • Disaster Recovery (redundancy)
+
+  • Uses
+      • Web servers, Application servers
+      • Big Data, Development & Testing
+      • High Performance Computing
+
+  • Minh họa AWS
+      • EC2 Instance launch
+      • AMI (Amazon Machine Image)
+      • Instance type, key pair, network, storage
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  IaaS cho phép kiểm soát cao nhất trong cloud service models, phù hợp khi cần 
+  linh hoạt quản lý OS và applications.
+
+  Đây là nền tảng cho PaaS và SaaS.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Platform as a Service (PaaS).
+────────────────────────────────────────────────────────────────

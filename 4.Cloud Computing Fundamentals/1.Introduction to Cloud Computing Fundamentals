@@ -1,0 +1,66 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║        INTRODUCTION TO CLOUD COMPUTING FUNDAMENTALS                          ║
+║               (Giới thiệu Cloud Computing Fundamentals)                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Cloud Computing Fundamentals
+  Tỷ lệ thi  : 20% câu hỏi trong kỳ thi
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Overview of Cloud Computing
+      • Features, benefits
+      • Service models (IaaS, PaaS, SaaS)
+      • Deployment models (Public, Private, Hybrid)
+
+  • Virtualization
+      • VM, hypervisors (Type 1, Type 2)
+      • Vagrant
+
+  • Infrastructure as a Service (IaaS)
+      • So sánh với on-premises
+      • Compute, storage, networking
+
+  • Platform as a Service (PaaS)
+      • Development & deployment environment
+
+  • Software as a Service (SaaS)
+      • Complete applications (email, CRM...)
+
+  • Serverless Computing
+      • Event-driven, functions, pay-per-use
+
+  • Configuration Management Tools
+      • Ansible, Puppet, Chef, Salt
+
+  • Build and Release Tools
+      • Terraform, CloudFormation, BOSH
+
+  • Key-Value Pair Stores
+      • etcd, Consul KV, ZooKeeper
+
+  • Logging and Monitoring Tools
+      • Elasticsearch (ELK), Splunk, Prometheus
+
+  • Cloud Computing Cost and Budgeting
+      • Pricing, billing, governance (AWS example)
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần Cloud Computing Fundamentals giới thiệu khái niệm Cloud, virtualization, 
+  service models, tools và cost management – chiếm 20% kỳ thi LFCA.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Hẹn gặp lại trong các bài học chi tiết.
+────────────────────────────────────────────────────────────────

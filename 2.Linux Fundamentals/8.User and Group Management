@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                 USER AND GROUP MANAGEMENT                                    ║
+║               (Quản lý User và Group)                                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : User and Group Management
+  Mục tiêu   : Tạo, sửa, xóa user/group và thay đổi password
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Tạo User và Group
+      • useradd : Tạo user mới (‑d home dir, ‑g primary group, ‑G supplementary)
+      • groupadd : Tạo group mới (‑g group ID)
+
+  • Sửa User và Group
+      • usermod : Sửa thông tin user (‑G thêm group, ‑u UID, ‑d home dir)
+      • groupmod : Sửa thông tin group (‑n đổi tên, ‑g đổi GID)
+
+  • Xóa User và Group
+      • userdel : Xóa user (‑r xóa home dir)
+      • groupdel : Xóa group (không xóa được nếu là primary group)
+
+  • Thay đổi Password
+      • passwd : Đổi password cho user (root có thể đổi cho bất kỳ ai)
+
+  • Minh họa Thực hành
+      • Tạo group dev, ops
+      • Tạo user clark, barry
+      • Sửa group, UID, home dir
+      • Xóa user/group
+      • Thay đổi password
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Quản lý user và group là kỹ năng cốt lõi để kiểm soát truy cập hệ thống. 
+
+  Thành thạo useradd, usermod, userdel, group* và passwd giúp bạn quản lý 
+  quyền truy cập an toàn và hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học File System Security.
+────────────────────────────────────────────────────────────────

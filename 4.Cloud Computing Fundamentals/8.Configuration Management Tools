@@ -1,0 +1,55 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                 CONFIGURATION MANAGEMENT TOOLS                               ║
+║               (Công cụ Quản lý Cấu hình)                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Configuration Management Tools
+  Mục tiêu   : Infrastructure as Code, Ansible, Puppet, Chef, Salt
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Configuration Management là gì?
+      • Quản lý và provision hệ thống lớn
+      • Infrastructure as Code (IaC)
+      • Tính consistency và reusability
+
+  • Ansible
+      • Agentless, over SSH
+      • Control node + Inventory + Playbooks
+      • Modules
+
+  • Puppet
+      • Client-Server model
+      • Puppet Server, Agents, Facts, Manifest, Catalog
+
+  • Chef
+      • Workstation, Chef Server, Agents
+      • Cookbooks, Recipes, Attributes
+      • Knife
+
+  • Salt
+      • Client-Server hoặc agentless
+      • Salt Master, Minions, ZeroMQ, Grains
+
+  • So sánh
+      • Agentless (Ansible, Salt) vs Client-Server (Puppet, Chef)
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Configuration Management Tools giúp tự động hóa quản lý hạ tầng lớn, đặc biệt 
+  trong cloud. Infrastructure as Code mang lại consistency và scalability.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Build and Release Tools.
+────────────────────────────────────────────────────────────────

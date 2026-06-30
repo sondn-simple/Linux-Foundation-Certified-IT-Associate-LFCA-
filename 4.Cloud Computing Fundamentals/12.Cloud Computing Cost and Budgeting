@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               CLOUD COMPUTING COST AND BUDGETING                             ║
+║               (Chi phí và Budgeting Cloud Computing)                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Cloud Cost and Budgeting (AWS example)
+  Mục tiêu   : Pricing, Billing, Governance
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Pricing
+      • Mỗi service có giá riêng (EC2, Lambda, S3...)
+      • Compute (hourly), Storage, Outbound Data Transfer
+      • Support Plans: Basic, Developer, Business, Enterprise
+      • Free Tier, Reserved Instances, Right Sizing
+      • Pricing Calculator, AWS Price List API
+
+  • Billing
+      • Budgets: Alert khi vượt ngân sách
+      • Cost and Usage Reports: Chi tiết usage
+      • Cost Explorer: Visualize & forecast
+      • Cost Allocation Tags
+
+  • Governance
+      • Organizations: Quản lý multiple accounts
+      • Control Tower: Policy enforcement
+      • Systems Manager: Visibility & automation
+      • Trusted Advisor: Best practices
+      • License Manager, Certificate Manager
+
+  • Minh họa
+      • AWS Console, Reserved Instances, Budgets
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Hiểu rõ pricing, billing và governance giúp kiểm soát chi phí cloud hiệu quả. 
+
+  AWS cung cấp nhiều công cụ để optimize TCO.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Conclusion to Cloud Computing Fundamentals.
+────────────────────────────────────────────────────────────────

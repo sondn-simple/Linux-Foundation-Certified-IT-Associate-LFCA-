@@ -1,0 +1,62 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  PART 1: SYSTEM SECURITY                                     ║
+║               (Phần 1: System Security)                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : System Security
+  Mục tiêu   : Kernel, Application, File System, Authentication
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Kernel Security
+      • Apply kernel patches
+      • Kernel module signing
+      • Update sysctl.conf
+      • Disable external boot
+      • GRUB password
+
+  • Application Security
+      • Update software regularly
+      • Remove unused packages
+      • Disable unnecessary services
+      • Security best practices for common services (Apache, Nginx...)
+      • Dedicated users for services
+
+  • File System Security
+      • Separate partitions (system/user)
+      • Relevant mount options (noexec)
+      • SELinux/AppArmor
+      • Manage Bash history
+      • AIDE for intrusion detection
+
+  • Authentication and Authorization
+      • Disable remote root login
+      • SSH key pairs
+      • Strong password policy
+      • Limit user permissions (sudo)
+
+  • Minh họa
+      • Kernel updates, sysctl
+      • systemctl disable
+      • chage, PAM
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  System Security bao gồm kernel, application, file system và authentication. 
+
+  Áp dụng best practices giúp giảm rủi ro và tăng cường bảo vệ hệ thống.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi Phần 1! 
+Hẹn gặp lại ở Phần 2.
+────────────────────────────────────────────────────────────────

@@ -1,0 +1,51 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   BUILD AND RELEASE TOOLS                                    ║
+║               (Công cụ Build và Release)                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Build and Release Tools
+  Mục tiêu   : Infrastructure as Code (Terraform, CloudFormation, BOSH)
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Terraform
+      • Declarative configuration (human-readable)
+      • Version control
+      • Multi-cloud support
+      • Plan & Apply
+      • Providers, Modules, State
+
+  • CloudFormation (AWS)
+      • Templates (JSON/YAML)
+      • Automate provisioning
+      • Safety controls (rollback, change sets)
+
+  • BOSH
+      • Deployment for large-scale services
+      • BOSH CLI, Director
+      • Stemcell, Release, Deployment Manifest
+
+  • Minh họa
+      • Terraform workflow
+      • CloudFormation template
+      • BOSH architecture
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Build & Release Tools (Terraform, CloudFormation, BOSH) là nền tảng của 
+  Infrastructure as Code, giúp tự động hóa deployment và quản lý hạ tầng.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Key-Value Pair Stores.
+────────────────────────────────────────────────────────────────

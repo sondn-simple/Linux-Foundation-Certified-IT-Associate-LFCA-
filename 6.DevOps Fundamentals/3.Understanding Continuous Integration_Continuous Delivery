@@ -1,0 +1,59 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║      UNDERSTANDING CONTINUOUS INTEGRATION / CONTINUOUS DELIVERY              ║
+║               (Hiểu về Continuous Integration / Continuous Delivery)         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : CI/CD Pipeline
+  Mục tiêu   : Các giai đoạn pipeline
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • CI/CD Pipeline
+      • Vòng lặp liên tục: Plan → Code → Build → Test → Release → Deploy → Operate
+
+  • Plan
+      • Xác định scope, specifications
+      • Feedback từ stakeholders
+
+  • Code
+      • Developers viết code, commit thường xuyên
+      • Sử dụng IDE
+
+  • Build
+      • Compile code + dependencies
+      • Trigger by schedule hoặc commit
+
+  • Test
+      • Unit, Integration, Regression, UAT, Performance...
+
+  • Release
+      • Build ready for deployment
+
+  • Deploy
+      • Automatic/Manual
+      • Blue-Green Deployment (zero downtime)
+
+  • Operate
+      • Monitoring, feedback, improve next iteration
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  CI/CD pipeline tự động hóa quy trình phát triển, tăng tốc độ, giảm lỗi và 
+  tăng reliability.
+
+  Đây là cốt lõi của DevOps.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Understanding DevOps and CI/CD Tools.
+────────────────────────────────────────────────────────────────

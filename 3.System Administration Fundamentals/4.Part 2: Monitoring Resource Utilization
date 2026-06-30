@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         PART 2: MONITORING RESOURCE UTILIZATION                              ║
+║               (Phần 2: Giám sát Sử dụng Tài nguyên)                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Tiếp tục monitoring
+  Mục tiêu   : vmstat, free, df
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • vmstat
+      • Virtual memory, paging, I/O
+      • Interval và count
+      • ‑s (memory stats table)
+      • ‑d (disk stats)
+
+  • free
+      • Free/used memory (/proc/meminfo)
+      • ‑h (human-readable)
+      • ‑m (MB), ‑g (GB)
+
+  • df
+      • Disk space on mounted filesystems
+      • ‑h (human-readable)
+      • ‑a (all, including pseudo)
+
+  • Minh họa
+      • vmstat 1 4
+      • free -h
+      • df -h /var/log
+
+  • Tổng kết phần
+      • sar, vmstat, free, df giúp giám sát CPU, memory, disk, I/O
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Giám sát tài nguyên giúp phát hiện sớm vấn đề và tối ưu hệ thống. 
+
+  Kết hợp 4 lệnh sar, vmstat, free, df là nền tảng cho quản trị Linux.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi toàn bộ phần Monitoring Resource Utilization! 
+Tiếp theo chúng ta sẽ học Backups and Compression.
+────────────────────────────────────────────────────────────────

@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               USING LINUX DOCUMENTATION                                      ║
+║               (Sử dụng Tài liệu Linux)                                       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Linux Documentation
+  Mục tiêu   : Sử dụng man pages, info và help để tìm hiểu lệnh
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Man Pages (Manual Pages)
+      • Lệnh: man <command>
+      • Phân chia thành sections 1-9
+      • Cấu trúc: NAME, SYNOPSIS, DESCRIPTION, OPTIONS...
+      • Tìm kiếm: man -f (whatis), man -k (apropos)
+
+  • GNU Info System
+      • Lệnh: info
+      • Main menu (directory node)
+      • Sử dụng node, menu, link
+      • Điều hướng: N (next), P (previous), U (up), Q (quit)
+
+  • Help Command và --help
+      • help : Xem built-in shell commands
+      • command --help : Tóm tắt ngắn gọn options
+      • Ví dụ: ls --help
+
+  • Lợi ích
+      • Giúp tìm hiểu lệnh nhanh mà không cần nhớ hết
+      • Hỗ trợ troubleshooting và học tập
+      • Công cụ quan trọng cho người mới bắt đầu
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Linux Documentation là "cứu cánh" khi bạn quên lệnh hoặc không biết option. 
+
+  Thành thạo man, info và --help sẽ giúp bạn tự tin hơn rất nhiều khi làm việc 
+  trên command line.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Linux Filesystems and Default Directories.
+────────────────────────────────────────────────────────────────

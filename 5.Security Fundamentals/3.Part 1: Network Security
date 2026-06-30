@@ -1,0 +1,55 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  PART 1: NETWORK SECURITY                                    ║
+║               (Phần 1: Network Security)                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Network Security
+  Mục tiêu   : Best practices và tools
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Best Practices
+      • Giảm số services trên host (reduce threat landscape)
+      • Local Firewall (firewalld)
+      • Encryption for data transfer
+      • Centralized authentication (Kerberos)
+      • Intrusion Prevention System (IPS)
+      • VPN
+      • SSL/TLS
+
+  • Tools
+      • Firewall: firewall-cmd (RHEL), ufw (Debian)
+      • systemctl: Quản lý services
+      • ss, ps, lsof: Xem sockets, processes, open files
+
+  • Data Transfer & Communication
+      • scp, ssh, rsync, sftp
+
+  • Investigation & Analysis
+      • Wireshark (packet analysis)
+      • Nmap (scan ports)
+      • traceroute (path mapping)
+
+  • Minh họa
+      • ss -tuln, ps -ef, lsof -u nginx
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Network Security bắt đầu từ local best practices và tools. 
+
+  Giảm services, firewall, encryption là nền tảng bảo mật mạng.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi Phần 1! 
+Hẹn gặp lại ở Phần 2.
+────────────────────────────────────────────────────────────────

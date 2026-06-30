@@ -1,0 +1,72 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║             INTRODUCTION TO LINUX FUNDAMENTALS                               ║
+║               (Giới thiệu Linux Fundamentals)                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Linux Fundamentals
+  Mục tiêu   : Nền tảng cơ bản về Hệ điều hành Linux
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Linux Operating System
+      • Lịch sử hình thành
+      • Kiến trúc cơ bản
+      • Các distribution phổ biến
+
+  • Linux Startup Process
+      • BIOS/UEFI → Bootloader → Kernel → Init/Systemd
+
+  • Software Installation & Package Management
+      • Debian-based (apt)
+      • Red Hat-based (yum/dnf)
+
+  • Linux Documentation
+      • man pages
+      • GNU info system
+      • help command
+
+  • Filesystems & Default Directories
+      • Cấu trúc thư mục chuẩn trên Linux
+
+  • File & Directory Management
+      • Tạo, di chuyển, xóa file/thư mục
+
+  • User & Group Management
+      • Tạo, sửa, xóa user/group
+
+  • Permissions
+      • Ownership (chown)
+      • Permissions (chmod)
+
+  • Viewing Text & Redirection
+      • cat, less, head, tail
+      • Input/Output redirection (> , >> , |)
+
+  • Process Management
+      • Xem và kill process
+
+  • Basic Networking
+      • Cấu hình và kiểm tra mạng
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần Linux Fundamentals cung cấp nền tảng vững chắc để bạn làm quen với 
+  hệ điều hành Linux, từ khởi động, quản lý file, user, permissions đến networking.
+
+  Đây là phần quan trọng chiếm tỷ lệ lớn trong kỳ thi LFCA. Hãy thực hành 
+  thường xuyên để nắm chắc kiến thức.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ đi sâu vào từng chủ đề.
+────────────────────────────────────────────────────────────────

@@ -1,0 +1,56 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║             INTRODUCTION TO DEVOPS FUNDAMENTALS                              ║
+║               (Giới thiệu DevOps Fundamentals)                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : DevOps Fundamentals
+  Tỷ lệ thi  : 16% câu hỏi
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • DevOps Concepts and Philosophy
+      • Unify Development & Operations
+      • Culture, Practices, Tools
+      • Benefits: Collaboration, Speed, Consistency
+
+  • Continuous Integration / Continuous Delivery (CI/CD)
+      • Pipeline: Plan → Code → Build → Test → Release → Deploy → Operate
+
+  • DevOps and CI/CD Tools
+      • Source Control: Git, GitHub
+      • CI/Build: Jenkins, Bamboo
+      • Configuration Management: Ansible, Puppet, Chef, Salt
+      • Deployment, Monitoring...
+
+  • Container Technology
+      • VM vs Container
+      • Docker
+      • Orchestration (Kubernetes, Docker Swarm)
+
+  • Distributed Version Control with Git
+      • Branching, Merging, Staging
+      • Common commands: init, add, commit, push, pull
+
+  • Working with Git in Command Line
+      • Install, config, repo
+      • Branching & Merging
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  DevOps Fundamentals giới thiệu cách tiếp cận hiện đại để phát triển và vận hành 
+  phần mềm nhanh hơn, ổn định hơn – chiếm 16% kỳ thi.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học DevOps Concepts and Philosophy.
+────────────────────────────────────────────────────────────────

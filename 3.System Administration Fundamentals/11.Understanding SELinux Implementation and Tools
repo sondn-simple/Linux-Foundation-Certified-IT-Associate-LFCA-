@@ -1,0 +1,61 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║           UNDERSTANDING SELINUX IMPLEMENTATION AND TOOLS                     ║
+║               (Hiểu về Triển khai và Công cụ SELinux)                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : SELinux Implementation and Tools
+  Mục tiêu   : Modes, context, utilities
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • SELinux là gì?
+      • Mandatory Access Control (MAC) architecture
+      • Kernel modifications + user-space tools
+      • Label files, ports, sockets để kiểm soát access
+
+  • Modes
+      • Enforcing: Áp dụng policy
+      • Permissive: Theo dõi violations (không block)
+      • Disabled: Tắt SELinux (không khuyến khích)
+
+  • Security Contexts
+      • user:role:type:range (level)
+      • Ví dụ: system_u:object_r:httpd_sys_content_t:s0
+
+  • Utilities Xem Thông tin
+      • semanage fcontext -l : Xem file context
+      • getenforce : Mode hiện tại
+      • getsebool -a : Boolean values
+      • sestatus : Status tổng quát
+      • ls -Z, ps -Z : Context của file/process
+
+  • Utilities Sửa Đổi
+      • semanage : Thay đổi policy (permanent)
+      • setenforce 0/1 : Permissive/Enforcing
+      • setsebool : Toggle Boolean
+      • chcon : Temporary context change
+      • restorecon : Restore default context
+
+  • Minh họa
+      • httpd document root context
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  SELinux tăng cường bảo mật Linux bằng mandatory access control. 
+
+  Thành thạo getenforce, semanage, setsebool, restorecon giúp quản lý policy an toàn.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Conclusion to System Administration Fundamentals.
+────────────────────────────────────────────────────────────────

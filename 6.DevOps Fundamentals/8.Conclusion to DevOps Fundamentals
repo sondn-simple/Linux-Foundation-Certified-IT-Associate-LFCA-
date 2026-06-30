@@ -1,0 +1,51 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║             CONCLUSION TO DEVOPS FUNDAMENTALS                                ║
+║               (Kết luận DevOps Fundamentals)                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG KẾT PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  • DevOps Concepts and Philosophy
+      • Culture, Practices, Tools
+      • Traditional silos vs Shared responsibility
+      • Benefits: Collaboration, Speed, Consistency
+
+  • CI/CD
+      • Pipeline stages: Plan, Code, Build, Test, Release, Deploy, Operate
+
+  • DevOps & CI/CD Tools
+      • Source Control: Git, GitHub
+      • Build/CI: Jenkins, Maven
+      • Testing: Selenium, Cucumber
+      • Configuration: Ansible, Puppet
+      • Deployment: Spinnaker
+      • Containers: Docker, Kubernetes
+      • Monitoring: ELK, Splunk
+
+  • Container Technology
+      • VM vs Container
+      • Docker components & commands
+      • Orchestration (Kubernetes)
+
+  • Git
+      • Branching, Merging, Staging
+      • Common commands: init, add, commit, checkout, merge
+
+  • Working with Git
+      • Install, config, repo
+      • Add/commit, branching & merging
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  DevOps Fundamentals chiếm 16% kỳ thi, cung cấp nền tảng về culture, CI/CD, 
+  tools, containers và Git – chìa khóa cho DevOps practice.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Chúc bạn ôn thi thành công.
+────────────────────────────────────────────────────────────────

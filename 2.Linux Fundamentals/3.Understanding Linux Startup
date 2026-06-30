@@ -1,0 +1,56 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               UNDERSTANDING LINUX STARTUP                                    ║
+║               (Hiểu về Quá trình Khởi động Linux)                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Linux Startup Process
+  Mục tiêu   : 4 giai đoạn chính của quá trình khởi động Linux
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • BIOS / UEFI
+      • Firmware trên motherboard
+      • Phát hiện và map thiết bị (hard drive, keyboard...)
+      • Power-On Self-Test (POST)
+      • Khởi động boot sequence từ thiết bị có thể boot
+
+  • Bootloader (GRUB)
+      • Lưu ở sector đầu tiên của ổ đĩa
+      • Tải kernel image và initrd/initramfs
+      • GRUB (GRand Unified Bootloader) là bootloader phổ biến nhất
+
+  • Kernel
+      • Lõi hệ thống (monolithic kernel)
+      • Cấu hình hệ thống
+      • Mount root filesystem
+      • Khởi chạy init process (Systemd)
+
+  • Post Kernel / Systemd
+      • Process đầu tiên (PID 1)
+      • Spawn tất cả các process khác
+      • Khởi động song song (parallel) để nhanh hơn
+      • Đưa hệ thống vào trạng thái target (multi-user, graphical...)
+
+  • Quy trình Tổng thể
+      BIOS/UEFI → Bootloader → Kernel → Systemd → Target State
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Quá trình khởi động Linux bao gồm 4 giai đoạn chính, từ BIOS đến Systemd. 
+
+  Hiểu rõ startup process giúp troubleshooting khi hệ thống không boot được.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Software Installation & Package Management.
+────────────────────────────────────────────────────────────────

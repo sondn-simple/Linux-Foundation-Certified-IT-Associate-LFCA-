@@ -1,0 +1,52 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               FILE AND DIRECTORY MANAGEMENT                                  ║
+║               (Quản lý File và Thư mục)                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : File & Directory Management
+  Mục tiêu   : Lệnh xem, tạo, sao chép, di chuyển và xóa file/thư mục
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Lệnh Xem và Liệt kê
+      • ls : Liệt kê nội dung thư mục (‑a: all, ‑l: long)
+      • pwd : In thư mục hiện tại
+      • cd : Chuyển thư mục (cd ~ : home, cd - : previous, cd .. : parent)
+      • cat : Xem nội dung file
+      • vi : Xem và chỉnh sửa file (có thể tạo mới)
+
+  • Lệnh Tạo và Xóa
+      • touch : Tạo file mới hoặc cập nhật timestamp
+      • mkdir : Tạo thư mục (‑p: tạo parent directories)
+      • cp : Sao chép file/thư mục (‑r: recursive)
+      • mv : Di chuyển hoặc đổi tên file/thư mục
+      • rm : Xóa file/thư mục (‑r: recursive, ‑f: force)
+      • rmdir : Xóa thư mục rỗng
+
+  • Minh họa Thực hành
+      • Tạo file: touch test01
+      • Sao chép: cp test02 test03
+      • Di chuyển/Đổi tên: mv test01 test04
+      • Xóa: rm test06, rm -rf directory
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Quản lý file và thư mục là kỹ năng cơ bản nhất trên Linux. 
+
+  Thành thạo ls, cd, touch, mkdir, cp, mv, rm giúp bạn tổ chức và làm việc 
+  hiệu quả với file system.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học User and Group Management.
+────────────────────────────────────────────────────────────────

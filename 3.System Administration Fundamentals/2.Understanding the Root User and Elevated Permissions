@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         UNDERSTANDING THE ROOT USER AND ELEVATED PERMISSIONS                 ║
+║               (Hiểu về Root User và Elevated Permissions)                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Root User và Elevated Permissions
+  Mục tiêu   : Quản lý quyền sudo, root login
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Root User (Super User)
+      • Tài khoản quản trị chính
+      • Có quyền cao nhất, có thể thay đổi ownership, permissions, user accounts
+
+  • Cấu hình Elevated Permissions
+      • /etc/sudoers và /etc/sudoers.d : Xác định user/group sudo
+      • /etc/ssh/sshd_config : Tắt root login (PermitRootLogin no)
+
+  • Công cụ Sử dụng Elevated Permissions
+      • visudo : Chỉnh sửa sudoers an toàn
+      • su : Switch user (su - cho login shell)
+      • sudo : Chạy lệnh với quyền root (‑u user, ‑i interactive)
+
+  • Minh họa
+      • Tắt/enable root SSH login
+      • Thêm user/group vào sudoers
+      • Sử dụng sudo, su, visudo
+
+  • Best Practices
+      • Tắt root remote login
+      • Sử dụng sudo thay vì login trực tiếp root
+      • Giới hạn quyền sudo theo nhu cầu
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Root user và elevated permissions là nền tảng bảo mật và quản trị Linux. 
+
+  Hiểu rõ sudoers, su, sudo giúp kiểm soát quyền truy cập an toàn và hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Monitoring Resource Utilization.
+────────────────────────────────────────────────────────────────

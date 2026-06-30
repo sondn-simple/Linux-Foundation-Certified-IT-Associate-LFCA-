@@ -1,0 +1,60 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         CONCLUSION TO LINUX FUNDAMENTALS                                     ║
+║               (Kết luận Linux Fundamentals)                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG KẾT PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  • Understanding the Linux Operating System
+      • Dựa trên UNIX, GNU Project, Linux Kernel (Linus Torvalds)
+      • Kiến trúc: Hardware → Kernel → Shell → Utilities
+
+  • Understanding Linux Startup
+      • BIOS/UEFI → Bootloader (GRUB) → Kernel → Systemd
+
+  • Software Installation and Package Management
+      • Red Hat: RPM, Yum/DNF, Zypper
+      • Debian: dpkg, apt
+
+  • Using Linux Documentation
+      • man pages, info, help, --help
+
+  • Understanding Linux Filesystems and Default Directories
+      • VFS, ext family, /, /home, /etc, /usr/local, /opt, /root, /srv
+
+  • File and Directory Management
+      • ls, cd, pwd, cat, vi, touch, mkdir, cp, mv, rm, rmdir
+
+  • User and Group Management
+      • useradd/groupadd, usermod/groupmod, userdel/groupdel, passwd
+
+  • File and Directory Permissions
+      • chown, chgrp, chmod (symbolic & octal)
+
+  • Viewing Text and Redirecting Input/Output
+      • more, less, head, tail, grep, sort
+      • > , >> , 2> , &> , |
+
+  • Viewing and Terminating System Processes
+      • ps, kill, top
+
+  • Basic Networking and Network Utilities
+      • ip (addr, link, route), ss, dig, ping
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần Linux Fundamentals đã trang bị cho bạn nền tảng vững chắc về Linux OS, 
+  startup, package management, documentation, file system, user management, 
+  permissions, text processing, process management và networking cơ bản.
+
+  Hãy ôn quiz, thực hành lab và xem lại video để củng cố kiến thức.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi phần Linux Fundamentals! 
+Tiếp theo chúng ta sẽ học System Administration Fundamentals.
+────────────────────────────────────────────────────────────────

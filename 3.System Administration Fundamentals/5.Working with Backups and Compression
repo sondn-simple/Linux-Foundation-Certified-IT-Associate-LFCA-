@@ -1,0 +1,52 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               WORKING WITH BACKUPS AND COMPRESSION                           ║
+║               (Làm việc với Backup và Compression)                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Backups và Compression
+  Mục tiêu   : Sử dụng tar và rsync
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • tar
+      • Tạo archive file/thư mục
+      • Lệnh: tar -cvf archive.tar dir/
+      • Compression: z (gzip), j (bzip2), J (xz)
+      • Extract: tar -xvf archive.tar
+
+  • rsync
+      • Copy/sync files locally/remotely
+      • Lệnh: rsync -avzh source/ dest/
+      • Trailing slash: Copy contents vs directory
+      • Options: a (archive), v (verbose), z (compress), h (human-readable)
+
+  • Minh họa
+      • tar -czvf backup.tgz docs/
+      • rsync -avzh data/ user@server:/path/
+      • Sync incremental files
+
+  • Best Practices
+      • Backup important dirs (/etc, /home, /var/log)
+      • Sử dụng compression để tiết kiệm dung lượng
+      • rsync cho sync liên tục
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Tar và rsync là hai công cụ mạnh mẽ cho backup và synchronization. 
+
+  Kết hợp chúng giúp bảo vệ dữ liệu và giữ hệ thống luôn đồng bộ.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Common System Applications.
+────────────────────────────────────────────────────────────────

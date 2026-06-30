@@ -1,0 +1,58 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        SECURITY BASICS                                       ║
+║               (Bảo mật Cơ bản)                                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Security Basics
+  Mục tiêu   : Khái niệm, focus areas, common attacks
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Security là gì?
+      • IT Security, Cyber Security
+      • Bảo vệ infrastructure, networks, data khỏi theft, exploitation, disruption
+
+  • Các Yếu tố Cốt lõi
+      • Threat & Risk Assessment
+      • Detection & Prevention
+      • Remediation
+
+  • Security Focus Areas
+      • Network Security
+      • System Security
+      • Access Control (Physical, Authentication, Authorization)
+      • Application Security
+      • Data Security
+      • Cloud Security
+
+  • Common Attacks
+      • DoS/DDoS: Flooding để làm gián đoạn service
+      • Man-in-the-Middle: Chặn và nghe lén giao tiếp
+      • Malware: Virus, Trojan, Spyware, Ransomware
+      • Software Exploit: Tận dụng lỗ hổng
+      • Internal Threats: Nhân viên không hài lòng
+
+  • Key Takeaways
+      • Tập trung vào prevention, detection, remediation
+      • Luôn cập nhật patch, theo dõi logs
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Security Basics là nền tảng để bảo vệ hệ thống. 
+
+  Hiểu rõ các focus areas và common attacks giúp xây dựng chiến lược bảo mật toàn diện.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Network Security.
+────────────────────────────────────────────────────────────────

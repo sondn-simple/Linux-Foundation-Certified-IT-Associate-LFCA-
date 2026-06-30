@@ -1,0 +1,52 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              MANAGING NETWORK ACCESS AND SECURITY                            ║
+║               (Quản lý Truy cập Mạng và Bảo mật)                             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Network Access and Security
+  Mục tiêu   : firewalld, firewall-cmd, sshd_config
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • firewalld
+      • Dynamically managed firewall với zones
+      • Lệnh: firewall-cmd --state, --list-services, --list-ports
+      • Zones: public, trusted, home, internal...
+
+  • firewall-cmd
+      • --permanent : Lưu vĩnh viễn
+      • --reload : Áp dụng thay đổi
+      • --add-service=http, --add-port=80/tcp
+      • --list-all : Xem tất cả
+
+  • SSH Access
+      • /etc/ssh/sshd_config
+      • AllowUsers : Chỉ cho phép user cụ thể
+      • AllowGroups : Chỉ cho phép group cụ thể
+      • systemctl restart sshd
+
+  • Minh họa
+      • Thêm service/port
+      • Tắt root login
+      • Restrict user/group access
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Quản lý network access và security giúp bảo vệ hệ thống khỏi truy cập không mong muốn. 
+
+  Thành thạo firewalld và sshd_config là kỹ năng quan trọng cho quản trị Linux.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Runlevels and Targets.
+────────────────────────────────────────────────────────────────

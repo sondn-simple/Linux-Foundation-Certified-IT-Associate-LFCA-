@@ -1,0 +1,57 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         PART 2: VIEWING TEXT AND REDIRECTING INPUT/OUTPUT                    ║
+║               (Phần 2: Xem Text và Redirect Input/Output)                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Tiếp tục xem text và redirect
+  Mục tiêu   : grep, sort, redirect, pipe
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • grep
+      • Tìm kiếm pattern trong file
+      • ‑i : ignore case
+      • ‑R : recursive
+
+  • sort
+      • Sắp xếp lines
+      • ‑n : numeric
+      • ‑r : reverse
+
+  • Input/Output Redirection
+      • >  : overwrite stdout
+      • >> : append stdout
+      • 2> : redirect stderr
+      • &> : redirect cả stdout và stderr
+      • <  : input redirection
+
+  • Pipeline (|)
+      • Kết nối output của lệnh 1 làm input của lệnh 2
+      • Ví dụ: ps -ef | grep ssh | wc -l
+
+  • Minh họa
+      • grep cloud_user /var/log/messages
+      • sort numbers.txt
+      • ls /home /root /baddir > output.txt 2> error.txt
+      • ls | wc -l
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần 2 tập trung vào grep, sort và các kỹ thuật redirect & pipe mạnh mẽ. 
+
+  Kết hợp các lệnh này giúp bạn xử lý text, log và output một cách chuyên nghiệp.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi toàn bộ phần Viewing Text và Redirect!
+Tiếp theo chúng ta sẽ học Process Management.
+────────────────────────────────────────────────────────────────

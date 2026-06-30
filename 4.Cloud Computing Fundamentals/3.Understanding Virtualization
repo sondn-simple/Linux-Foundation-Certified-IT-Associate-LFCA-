@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                 UNDERSTANDING VIRTUALIZATION                                 ║
+║               (Hiểu về Virtualization)                                       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Virtualization
+  Mục tiêu   : Khái niệm VM, hypervisor và Vagrant
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Virtualization là gì?
+      • Tạo phiên bản ảo của tài nguyên (hardware, OS...)
+      • Abstract physical hardware khỏi applications
+      • Tăng tính linh hoạt và utilization
+
+  • Virtual Machine (VM)
+      • Hệ thống ảo chạy trên hypervisor
+      • Guest OS trên host hardware
+
+  • Hypervisor
+      • Type 1 (Bare Metal): Chạy trực tiếp trên hardware (Hyper-V, ESXi, Xen)
+      • Type 2 (Hosted): Chạy như application trên OS (VirtualBox, VMware Workstation)
+
+  • Vagrant
+      • Tool để build và manage VM environments
+      • Vagrantfile: Config VM
+      • Lệnh: vagrant up, vagrant destroy
+      • Hỗ trợ nhiều hypervisors, OS, plugins
+
+  • Lợi ích
+      • Tăng tốc độ provisioning
+      • Dễ dàng tạo dev/test/prod environments
+      • Hỗ trợ multiple OS trên cùng hardware
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Virtualization là nền tảng của Cloud Computing. 
+
+  Hiểu rõ VM, hypervisor và Vagrant giúp bạn quản lý môi trường dev/test hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Infrastructure as a Service (IaaS).
+────────────────────────────────────────────────────────────────

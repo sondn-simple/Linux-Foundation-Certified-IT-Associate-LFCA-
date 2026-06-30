@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║             UNDERSTANDING DEVOPS AND CI/CD TOOLS                             ║
+║               (Hiểu về DevOps và CI/CD Tools)                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : DevOps & CI/CD Tools
+  Mục tiêu   : Tools cho từng giai đoạn pipeline
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Source Control Management
+      • Git, GitHub, GitLab, Bitbucket, Subversion
+
+  • Build Automation & CI
+      • Jenkins, GitLab CI, Travis CI, Maven, Bamboo
+
+  • Testing
+      • Selenium, Appium, Cucumber, JMeter
+
+  • Release Management
+      • CloudBees Flow, UrbanCode Release, AWS CodePipeline
+
+  • Configuration Management
+      • Ansible, Puppet, Chef, Salt, Terraform
+
+  • Deployment
+      • Azure DevOps, AWS CodeDeploy, Spinnaker, Octopus Deploy
+
+  • Containers
+      • Docker, OpenShift, Kubernetes
+
+  • Monitoring & Analytics
+      • Elastic Stack (ELK), Splunk, Grafana, New Relic
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Chọn đúng tools cho CI/CD pipeline là bước quan trọng khi áp dụng DevOps. 
+
+  Từ source control đến monitoring, mỗi giai đoạn có các công cụ chuyên biệt.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Understanding Container Technology.
+────────────────────────────────────────────────────────────────

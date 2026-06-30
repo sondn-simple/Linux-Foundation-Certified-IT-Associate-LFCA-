@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               UNDERSTANDING RUNLEVELS AND TARGETS                            ║
+║               (Hiểu về Runlevels và Targets)                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Runlevels and Targets
+  Mục tiêu   : So sánh SysV Init và Systemd
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Runlevels (SysV Init)
+      • Trạng thái khởi động hệ thống
+      • Runlevel 0: Poweroff
+      • Runlevel 1: Rescue
+      • Runlevel 2-4: Multi-user
+      • Runlevel 5: Graphical
+      • Runlevel 6: Reboot
+
+  • Targets (Systemd)
+      • Thay thế runlevels, linh hoạt hơn
+      • poweroff.target, rescue.target, multi-user.target
+      • graphical.target, reboot.target
+      • Khởi động parallel, dependencies
+
+  • systemctl
+      • systemctl list-units --type target
+      • systemctl get-default
+      • systemctl set-default
+      • systemctl isolate <target>
+
+  • Minh họa
+      • rescue.target, multi-user.target
+      • graphical.target (nếu có desktop)
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Runlevels và Targets mô tả trạng thái hệ thống. Systemd linh hoạt và mạnh mẽ hơn SysV Init.
+
+  Hiểu systemctl isolate và targets giúp quản lý khởi động hệ thống.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Basic SELinux.
+────────────────────────────────────────────────────────────────

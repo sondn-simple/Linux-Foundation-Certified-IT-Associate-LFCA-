@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║       UNDERSTANDING LINUX FILESYSTEMS AND DEFAULT DIRECTORIES                ║
+║               (Hiểu về Filesystems và Thư mục Mặc định Linux)                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Linux Filesystems & Default Directories
+  Mục tiêu   : Cấu trúc filesystem và vai trò các thư mục mặc định
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Linux Filesystems
+      • Virtual File System (VFS): Layer trong kernel cung cấp interface cho userspace
+      • Cho phép nhiều loại filesystem coexist
+      • Các loại phổ biến:
+        • ext family (ext2, ext3, ext4)
+        • XFS, Btrfs, ZFS
+
+  • Filesystem Hierarchy Standard (FHS)
+      • Cung cấp khung chuẩn cho lưu trữ file hệ thống
+      • Gốc là / (root directory)
+
+  • Các Thư mục Mặc định Quan trọng
+      • /home      : Thư mục home của user
+      • /etc       : File cấu hình hệ thống
+      • /usr/local : Phần mềm cài đặt cục bộ
+      • /opt       : Add-on application packages
+      • /root      : Home directory của user root
+      • /srv       : Dữ liệu cho services (web, ftp...)
+
+  • Lợi ích
+      • Tính nhất quán giữa các distribution
+      • Dễ quản lý và bảo trì
+      • Phân tách rõ ràng dữ liệu hệ thống và user
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Hiểu rõ filesystem hierarchy và các thư mục mặc định giúp bạn định vị file 
+  nhanh chóng và quản lý hệ thống hiệu quả hơn.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học File and Directory Management.
+────────────────────────────────────────────────────────────────

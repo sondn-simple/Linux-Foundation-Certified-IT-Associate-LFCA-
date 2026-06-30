@@ -1,0 +1,52 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  PART 2: NETWORK SECURITY                                    ║
+║               (Phần 2: Network Security)                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Tiếp tục Network Security
+  Mục tiêu   : Thực hành best practices và tools
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Limit Services
+      • systemctl disable/stop postfix
+
+  • Local Firewall
+      • firewall-cmd --enable
+      • --add-service=http, https
+      • --list-all
+
+  • Data Transfer Tools
+      • scp: Secure copy
+      • ssh: Remote login
+
+  • Investigation Tools
+      • nmap -a : Scan ports, OS, version
+      • traceroute
+
+  • Minh họa
+      • Disable unnecessary services
+      • Enable firewall for http/https
+      • scp files between servers
+      • nmap scan
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Network Security bao gồm limit services, firewall, encryption và investigation tools.
+
+  Kết hợp best practices và command-line utilities giúp bảo vệ mạng hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học System Security.
+────────────────────────────────────────────────────────────────

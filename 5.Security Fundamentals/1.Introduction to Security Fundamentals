@@ -1,0 +1,50 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║             INTRODUCTION TO SECURITY FUNDAMENTALS                            ║
+║               (Giới thiệu Security Fundamentals)                             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Security Fundamentals
+  Tỷ lệ thi  : 16% câu hỏi
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Security Basics
+      • IT Security, Cyber Security
+      • Threat & Risk Assessment, Detection & Prevention
+
+  • Network Security
+      • Local firewall, best practices
+      • Tools: firewall-cmd, ufw, ss, nmap, Wireshark
+
+  • System Security
+      • Kernel, Applications, File Systems
+      • Authentication & Authorization
+
+  • Data Security
+      • Encryption (disk, partition, file, container)
+      • Backups
+
+  • Cloud Security
+      • IAM, Data/Network/Compute/Application security
+      • Monitoring & Policy
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần Security Fundamentals bao quát bảo mật từ local đến cloud. 
+
+  Tập trung vào security basics, network, system, data và cloud security.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Security Basics.
+────────────────────────────────────────────────────────────────

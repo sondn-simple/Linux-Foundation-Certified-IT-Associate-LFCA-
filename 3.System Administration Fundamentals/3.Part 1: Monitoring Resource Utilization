@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         PART 1: MONITORING RESOURCE UTILIZATION                              ║
+║               (Phần 1: Giám sát Sử dụng Tài nguyên)                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Monitoring Resource Utilization
+  Mục tiêu   : Sử dụng sar, vmstat, free, df
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • sar (System Activity Reporter)
+      • Thu thập và báo cáo hoạt động hệ thống (sysstat package)
+      • Lưu binary files trong /var/log/sa
+      • Options: ‑f (file), ‑r (memory), ‑u (CPU), ‑b (I/O)
+
+  • vmstat
+      • Virtual memory, paging, block I/O
+      • Interval và count
+      • ‑s (memory stats), ‑d (disk stats)
+
+  • free
+      • Free và used memory (/proc/meminfo)
+      • ‑h (human-readable), ‑m (MB), ‑g (GB)
+
+  • df
+      • Disk space usage
+      • ‑h (human-readable), ‑a (all filesystems)
+
+  • Minh họa
+      • sar, sar -r, sar -u
+      • vmstat 1 5
+      • free -h
+      • df -h
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Giám sát resource (CPU, memory, disk, I/O) là kỹ năng quan trọng để duy trì 
+  hệ thống ổn định và phát hiện vấn đề sớm.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi Phần 1! 
+Hẹn gặp lại ở Phần 2.
+────────────────────────────────────────────────────────────────

@@ -1,0 +1,60 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         PART 2: BASIC NETWORKING AND NETWORK UTILITIES                       ║
+║               (Phần 2: Networking Cơ bản và Công cụ Mạng)                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Tiếp tục Networking Utilities
+  Mục tiêu   : ip link/route, ss, dig, ping
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • ip link
+      • Xem và thay đổi trạng thái interface
+      • ip link set dev ens5 up/down
+      • Thay đổi MTU, promiscuous mode
+
+  • ip route
+      • Xem routing table
+      • Default gateway
+      • Route cho các subnet
+
+  • ss
+      • Xem sockets và connections
+      • ss -tuln : TCP listening
+      • ss -tup : TCP with process
+
+  • dig
+      • DNS lookup
+      • dig google.com : Xem IP, TTL, nameserver
+
+  • ping
+      • Kiểm tra kết nối
+      • ping google.com : ICMP echo request/response
+      • Statistics: packet loss, RTT
+
+  • Minh họa
+      • ip link show
+      • ss -tuln
+      • dig acloudguru.com
+      • ping google.com
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Networking utilities là công cụ thiết yếu để kiểm tra và quản lý mạng. 
+
+  Thành thạo ip, ss, dig, ping giúp bạn troubleshoot nhanh chóng và hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi toàn bộ phần Basic Networking! 
+Tiếp theo chúng ta sẽ học Basic Commands.
+────────────────────────────────────────────────────────────────

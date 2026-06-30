@@ -1,0 +1,59 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               UNDERSTANDING THE LINUX OPERATING SYSTEM                       ║
+║               (Hiểu về Hệ điều hành Linux)                                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Linux Operating System
+  Mục tiêu   : Lịch sử, kiến trúc và các distribution phổ biến
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Lịch sử Linux
+      • Dựa trên UNIX (Bell Labs 1969)
+      • GNU Project (Richard Stallman 1983) – Tạo phần mềm miễn phí
+      • Linux Kernel (Linus Torvalds 1991) – Kết hợp với GNU → Linux hiện đại
+      • 1992: Linux kernel dưới GNU GPL
+
+  • Kiến trúc Linux (4 tầng chính)
+      • Utilities / User Space: Ứng dụng người dùng (text editor, web server...)
+      • Shell: Giao diện (Command Line hoặc Graphical)
+      • Kernel: Lõi hệ thống (monolithic kernel), giao tiếp phần mềm - phần cứng
+      • Hardware: CPU, RAM, Storage, Peripherals
+
+  • Các Distribution Phổ biến
+      • Red Hat Family: RHEL, Fedora, CentOS
+      • Debian Family: Ubuntu, Debian, Linux Mint
+      • SUSE: SUSE Enterprise, OpenSUSE
+      • Khác: Arch Linux, Steam OS
+
+  • Sự khác biệt giữa các Distribution
+      • Desktop Environment (GNOME, KDE, Xfce...)
+      • Package Manager (apt, yum/dnf, zypper)
+      • Driver Support
+      • Mục đích sử dụng (Server, Desktop, Minimal, Gaming...)
+
+  • Monolithic Kernel
+      • Linux kernel là monolithic (toàn bộ trong kernel space)
+      • Khác với hybrid kernel (Windows, macOS)
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Linux là hệ điều hành mã nguồn mở mạnh mẽ, linh hoạt và phổ biến. 
+
+  Hiểu rõ lịch sử, kiến trúc và các distribution giúp bạn chọn đúng hệ thống 
+  phù hợp cho nhu cầu công việc và học tập.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Linux Startup Process.
+────────────────────────────────────────────────────────────────

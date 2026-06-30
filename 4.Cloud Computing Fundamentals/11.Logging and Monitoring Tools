@@ -1,0 +1,56 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  LOGGING AND MONITORING TOOLS                                ║
+║               (Công cụ Logging và Monitoring)                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Logging and Monitoring Tools
+  Mục tiêu   : Elasticsearch, Splunk, Prometheus
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Elasticsearch (ELK Stack)
+      • Distributed search & analytics engine
+      • JSON documents, Index, Shard, Replica
+      • Node, Cluster
+      • Kibana cho visualization
+
+  • Splunk
+      • Search, monitor, analyze, visualize machine data
+      • Forwarders (Universal, Heavy)
+      • Indexer, Search Head
+      • Real-time processing
+
+  • Prometheus
+      • Monitoring & alerting
+      • Time-series data, metrics
+      • Scrape HTTP endpoints
+      • PromQL query language
+      • Grafana visualization
+      • Components: Server, Client Libraries, Pushgateway, Exporters, Alertmanager
+
+  • Minh họa
+      • Node, Cluster, Shard, Replica
+      • Forwarder → Indexer → Search Head
+      • Exporters, Alertmanager
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Logging & Monitoring là yếu tố then chốt để duy trì hệ thống ổn định. 
+
+  Elasticsearch, Splunk, Prometheus cung cấp công cụ mạnh mẽ cho data collection, 
+  analysis và alerting.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Cloud Computing Cost and Budgeting.
+────────────────────────────────────────────────────────────────

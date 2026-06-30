@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   PLATFORM AS A SERVICE (PaaS)                               ║
+║               (Platform as a Service)                                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : PaaS
+  Mục tiêu   : So sánh với on-premises, IaaS và benefits
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • PaaS là gì?
+      • Môi trường đầy đủ cho development và deployment
+      • Provider quản lý infrastructure, OS, middleware, runtime
+      • Customer quản lý code và data
+
+  • So sánh
+      • On-Premises: Quản lý toàn bộ
+      • IaaS: Quản lý OS trở lên
+      • PaaS: Quản lý application code & data
+
+  • Lợi ích
+      • Tăng focus vào application development
+      • Giảm complexity
+      • Tăng tốc độ delivery
+      • Global access, simplified lifecycle management
+      • Giảm nhu cầu system admin
+
+  • Ví dụ
+      • AWS Elastic Beanstalk, Google App Engine, Azure App Service
+
+  • Minh họa AWS
+      • Tạo application, chọn platform (Docker, Java, .NET...)
+      • Upload code hoặc dùng sample
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  PaaS cho phép developer tập trung vào code mà không lo hạ tầng. 
+
+  Đây là bước tiến từ IaaS, giảm gánh nặng quản trị hệ thống.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Software as a Service (SaaS).
+────────────────────────────────────────────────────────────────

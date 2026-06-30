@@ -1,0 +1,55 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                 UNDERSTANDING SERVERLESS COMPUTING                           ║
+║               (Hiểu về Serverless Computing)                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Serverless Computing
+  Mục tiêu   : Khái niệm, ví dụ và tools
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Serverless Computing là gì?
+      • Code tập trung vào function/task cụ thể
+      • Event-driven
+      • Dynamic resources (stateless container)
+      • Pay per execution
+
+  • Ví dụ Serverless Application
+      • AWS Lambda: Function triggered by API Gateway, S3, DynamoDB
+
+  • Serverless Technologies
+      • AWS Lambda
+      • Google Cloud Functions
+      • Azure Functions
+      • Knative (Kubernetes-based)
+      • OpenFaaS (Docker-based)
+
+  • Container Projects
+      • Azure Container Instances, AWS Fargate, Kubeless...
+
+  • Lợi ích
+      • Không quản lý server
+      • Scale tự động
+      • Cost efficient
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Serverless là cách tiếp cận hiện đại, event-driven, loại bỏ gánh nặng quản lý 
+  server.
+
+  Lý tưởng cho microservices và ứng dụng ngắn hạn.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Configuration Management Tools.
+────────────────────────────────────────────────────────────────

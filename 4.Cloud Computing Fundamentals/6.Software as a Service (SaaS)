@@ -1,0 +1,58 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   SOFTWARE AS A SERVICE (SaaS)                               ║
+║               (Software as a Service)                                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : SaaS
+  Mục tiêu   : Đặc điểm, so sánh và benefits
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • SaaS là gì?
+      • Cung cấp ứng dụng hoàn chỉnh cho end-user
+      • Provider quản lý toàn bộ stack (infrastructure, development, deployment)
+      • Truy cập qua browser hoặc client app
+      • Pay by subscription
+
+  • So sánh
+      • On-Premises: Quản lý toàn bộ
+      • IaaS: Quản lý OS trở lên
+      • PaaS: Quản lý code & data
+      • SaaS: Chỉ chọn và sử dụng ứng dụng
+
+  • Lợi ích
+      • Enterprise-level applications
+      • Access from anywhere
+      • Regular feature updates
+      • Tutorials & support
+      • Focus on core business
+      • Flexibility giữa các sản phẩm
+
+  • Ví dụ
+      • Google Workspace (Gmail, Calendar, Drive...)
+      • Microsoft 365, Salesforce
+
+  • Minh họa Google Workspace
+      • Plans cho Individuals, Business, Enterprise
+      • Products, Pricing
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  SaaS là mô hình cloud cao nhất, mang lại ứng dụng hoàn chỉnh và dễ sử dụng. 
+
+  Giúp doanh nghiệp tập trung vào core business mà không lo hạ tầng.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Serverless Computing.
+────────────────────────────────────────────────────────────────

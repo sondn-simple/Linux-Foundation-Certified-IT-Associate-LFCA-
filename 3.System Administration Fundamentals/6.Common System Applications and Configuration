@@ -1,0 +1,58 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║            COMMON SYSTEM APPLICATIONS AND CONFIGURATION                      ║
+║               (Các Ứng dụng Hệ thống Phổ biến và Cấu hình)                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Common System Applications
+  Mục tiêu   : Apache, Postfix, NTP/Chrony
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Apache HTTPD Web Server
+      • Open-source web server (Apache Software Foundation)
+      • Cài đặt: yum install httpd
+      • Cấu hình: /etc/httpd/conf/httpd.conf
+      • DocumentRoot: /var/www/html
+      • Logs: /var/log/httpd/
+      • Ports: 80 (HTTP), 443 (HTTPS)
+      • systemctl enable httpd --now
+
+  • Postfix Mail Server
+      • Open-source mail server (SMTP)
+      • Cài đặt: yum install postfix
+      • Cấu hình chính: /etc/postfix/main.cf
+      • Logs: /var/log/maillog
+      • Ports: 25, 465, 587
+      • systemctl enable postfix --now
+
+  • NTP / Chrony (Time Synchronization)
+      • NTP: Network Time Protocol
+      • Cài đặt: yum install ntp / chrony
+      • Cấu hình: /etc/ntp.conf hoặc /etc/chrony.conf
+      • Logs: /var/log/ntp.log hoặc /var/log/chrony/
+      • Port: 123 (UDP)
+      • systemctl enable ntpd/chronyd --now
+
+  • Quy trình Chung
+      • Cài đặt → Cấu hình → Start/Enable service → Kiểm tra log
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Apache, Postfix, NTP/Chrony là các ứng dụng hệ thống phổ biến. 
+
+  Hiểu cách cài đặt, cấu hình và kiểm tra logs giúp bạn quản trị server hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Viewing and Managing Log Files.
+────────────────────────────────────────────────────────────────

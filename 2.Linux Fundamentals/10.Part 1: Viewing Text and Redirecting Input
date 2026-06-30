@@ -1,0 +1,56 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         PART 1: VIEWING TEXT AND REDIRECTING INPUT/OUTPUT                    ║
+║               (Phần 1: Xem Text và Redirect Input/Output)                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Xem Text và Redirect Input/Output
+  Mục tiêu   : Các lệnh xem text, redirect và pipe
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Lệnh Xem và Tìm kiếm Text
+      • more : Xem text page by page (cũ)
+      • less : Xem text linh hoạt hơn (page up/down, search)
+      • head : Xem đầu file (‑n số dòng)
+      • tail : Xem cuối file (‑n, ‑f theo dõi real-time)
+      • grep : Tìm kiếm pattern (‑i ignore case, ‑R recursive)
+      • sort : Sắp xếp text (‑r reverse)
+
+  • Input/Output Redirection
+      • >  : Redirect standard output (overwrite)
+      • >> : Append standard output
+      • 2> : Redirect standard error
+      • &> : Redirect cả output và error
+      • |  : Pipe (output của lệnh này làm input của lệnh kia)
+
+  • Standard File Descriptors
+      • 0 : stdin (keyboard)
+      • 1 : stdout (screen)
+      • 2 : stderr (screen)
+
+  • Minh họa
+      • tail -f /var/log/messages (theo dõi log)
+      • grep cloud_user /var/log/messages
+      • ls | wc -l (đếm số file)
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Viewing text và redirection là kỹ năng rất quan trọng trong Linux. 
+
+  Thành thạo more, less, head, tail, grep, sort, > , >> , | giúp bạn xem, tìm 
+  và xử lý output hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi Phần 1! 
+Hẹn gặp lại ở Phần 2.
+────────────────────────────────────────────────────────────────

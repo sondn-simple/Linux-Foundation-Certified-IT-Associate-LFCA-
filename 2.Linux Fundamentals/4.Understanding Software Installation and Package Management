@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║         UNDERSTANDING SOFTWARE INSTALLATION AND PACKAGE MANAGEMENT           ║
+║               (Hiểu về Cài đặt Phần mềm và Quản lý Gói)                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Software Installation & Package Management
+  Mục tiêu   : Hiểu cách cài đặt phần mềm trên Red Hat và Debian-based
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Red Hat-based Package Management
+      • RPM (Red Hat Package Manager) – Core system
+      • High-level tools: Yum, DNF (RHEL 8+), Zypper (SUSE)
+      • Cài đặt: yum install httpd
+      • Cập nhật: yum update
+      • Xóa: yum remove httpd
+
+  • Debian-based Package Management
+      • dpkg (Debian Package) – Core system
+      • High-level tools: apt, apt-get, aptitude, synaptic
+      • Cài đặt: apt install apache2
+      • Cập nhật index: apt update
+      • Xóa: apt remove apache2
+
+  • So sánh
+      • Cả hai đều tự động xử lý dependencies
+      • Red Hat: RPM, Yum/DNF
+      • Debian: dpkg, apt
+
+  • Minh họa Thực hành
+      • CentOS 7: yum install httpd, remove, update
+      • Ubuntu: apt install apache2, remove, update
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Package management là cách dễ dàng và an toàn để cài đặt, cập nhật và xóa 
+  phần mềm trên Linux. 
+
+  Hiểu rõ yum/dnf (Red Hat) và apt (Debian) giúp bạn quản trị hệ thống hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Linux Documentation.
+────────────────────────────────────────────────────────────────

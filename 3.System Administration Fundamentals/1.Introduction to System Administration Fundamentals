@@ -1,0 +1,60 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║      INTRODUCTION TO SYSTEM ADMINISTRATION FUNDAMENTALS                      ║
+║               (Giới thiệu System Administration Fundamentals)                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : System Administration Fundamentals
+  Mục tiêu   : Xây dựng trên Linux Fundamentals, tập trung quản trị hệ thống
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Root User and Elevated Permissions
+      • /etc/sudoers, sudo, su, sshd_config (tắt root login)
+
+  • Monitoring Resource Utilization
+      • sar, vmstat, free, df
+
+  • Backups and Compression
+      • tar (archive + compress)
+      • rsync (copy/sync)
+
+  • Common System Applications
+      • Apache, Postfix, NTP/Chrony
+
+  • Viewing and Managing Log Files
+      • /var/log/syslog, journalctl, logrotate
+
+  • Configuring Network Interfaces
+      • ifcfg (Red Hat), interfaces (Debian), nmcli
+
+  • Network Access and Security
+      • firewalld, firewall-cmd, sshd_config
+
+  • Runlevels and Targets
+      • SysV Init vs Systemd
+
+  • Basic SELinux Implementation and Tools
+      • Modes, security context, semanage, setenforce, chcon, restorecon
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần System Administration Fundamentals giúp bạn nắm vững các kỹ năng quản 
+  trị hệ thống Linux thực tế, từ root, monitoring, backup, log, networking, 
+  security đến SELinux.
+
+  Đây là nền tảng quan trọng cho quản trị viên Linux.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Hãy bắt đầu với Root User and Elevated Permissions.
+────────────────────────────────────────────────────────────────

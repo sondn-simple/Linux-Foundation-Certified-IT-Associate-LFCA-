@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              VIEWING AND MANAGING LOG FILES                                  ║
+║               (Xem và Quản lý Log Files)                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Viewing and Managing Log Files
+  Mục tiêu   : System logs, systemd journal, logrotate
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • System Log Files
+      • Debian/Ubuntu: /var/log/syslog
+      • Red Hat/CentOS: /var/log/messages
+      • Cấu hình: /etc/rsyslog.conf, rsyslog.d
+
+  • Systemd Journal & journalctl
+      • Binary logs (journald daemon)
+      • journalctl -f (follow), -e (end), -x (explain), -u (unit)
+
+  • Log Management
+      • journald.conf, journald.conf.d
+      • logrotate: Quản lý log rotation
+      • /etc/logrotate.conf, logrotate.d
+      • /etc/cron.daily/logrotate
+
+  • Minh họa
+      • less /var/log/messages
+      • journalctl -xe
+      • logrotate config
+
+  • Best Practices
+      • Kiểm tra logs khi troubleshoot
+      • Sử dụng journalctl và logrotate
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Log files là nguồn thông tin quan trọng nhất khi troubleshooting. 
+
+  Thành thạo journalctl, rsyslog và logrotate giúp quản lý logs hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Configuring Network Interfaces.
+────────────────────────────────────────────────────────────────

@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              CONFIGURING NETWORKING INTERFACES                               ║
+║               (Cấu hình Network Interfaces)                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Configuring Network Interfaces
+  Mục tiêu   : ifcfg files, nmcli
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Red Hat-based (ifcfg)
+      • /etc/sysconfig/network-scripts/ifcfg-<interface>
+      • BOOTPROTO, IPADDR, NETMASK, GATEWAY, DNS
+
+  • Debian-based
+      • /etc/network/interfaces
+      • auto, iface, address, netmask, gateway
+
+  • nmcli (Network Manager CLI)
+      • nmcli dev status : Xem interfaces
+      • nmcli con show : Xem connections
+      • nmcli con modify : Sửa connection
+      • nmcli con up/down : Bật/tắt
+
+  • So sánh nmcli và ifcfg
+      • ipv4.method = BOOTPROTO
+      • ipv4.address = IPADDR
+      • ipv4.gateway = GATEWAY
+      • ifname = DEVICE
+
+  • Minh họa
+      • Xem config, sửa IP, up/down interface
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Cấu hình network interfaces là kỹ năng quan trọng để server kết nối mạng. 
+
+  Thành thạo ifcfg và nmcli giúp quản lý IP, routing và network settings hiệu quả.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Network Access and Security.
+────────────────────────────────────────────────────────────────

@@ -1,0 +1,65 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║       CONCLUSION TO CLOUD COMPUTING FUNDAMENTALS                             ║
+║               (Kết luận Cloud Computing Fundamentals)                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG KẾT PHẦN HỌC
+────────────────────────────────────────────────────────────────
+
+  • Understanding Cloud Computing
+      • Benefits: Reduced cost, scalability, reliability
+      • Service models: IaaS, PaaS, SaaS
+      • Deployment models: Public, Private, Hybrid
+
+  • Virtualization
+      • Abstract hardware
+      • VM, Hypervisor (Type 1 bare metal, Type 2 hosted)
+      • Vagrant
+
+  • IaaS
+      • Fundamental infrastructure
+      • Benefits: Cost, scalability, control
+      • Uses: Web servers, Big Data
+
+  • PaaS
+      • Development & deployment environment
+      • Reduced complexity, speed of delivery
+
+  • SaaS
+      • Complete applications (email, office...)
+      • Subscription model
+
+  • Serverless Computing
+      • Function-based, event-driven
+      • AWS Lambda, Google Cloud Functions, Azure Functions
+      • Knative, OpenFaaS
+
+  • Configuration Management Tools
+      • Ansible (agentless), Puppet, Chef, Salt
+
+  • Build and Release Tools
+      • Terraform, CloudFormation, BOSH
+
+  • Key-Value Pair Stores
+      • etcd, Consul KV, ZooKeeper
+
+  • Logging and Monitoring Tools
+      • Elasticsearch (ELK), Splunk, Prometheus
+
+  • Cloud Computing Cost and Budgeting
+      • Pricing, Billing, Governance (AWS Organizations, Trusted Advisor...)
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần Cloud Computing Fundamentals chiếm 20% kỳ thi, cung cấp cái nhìn tổng quan về cloud, virtualization, service models, tools và cost management.
+
+  Đây là nền tảng quan trọng cho mọi quản trị viên IT hiện đại.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Chúc bạn ôn thi thành công.
+────────────────────────────────────────────────────────────────

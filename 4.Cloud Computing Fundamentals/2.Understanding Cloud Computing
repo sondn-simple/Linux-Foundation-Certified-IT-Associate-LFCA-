@@ -1,0 +1,56 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                 UNDERSTANDING CLOUD COMPUTING                                ║
+║               (Hiểu về Cloud Computing)                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Cloud Computing
+  Mục tiêu   : Khái niệm, service models, deployment models
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Cloud Computing là gì?
+      • Cung cấp tài nguyên tính toán qua internet (on-demand)
+      • NIST definition: on-demand self-service, broad network access, resource pooling, rapid elasticity, measured service
+
+  • Lợi ích
+      • Giảm chi phí ban đầu (CapEx)
+      • Pay-as-you-go
+      • Tăng tốc độ và agility
+      • Giảm maintenance
+      • Reliability & Scalability
+
+  • Cloud Service Models
+      • IaaS (Infrastructure as a Service): Compute, Storage, Networking
+      • PaaS (Platform as a Service): Environment cho dev & deploy
+      • SaaS (Software as a Service): Ứng dụng hoàn chỉnh (email, CRM...)
+
+  • Cloud Deployment Models
+      • Public Cloud: Dùng chung cho mọi người
+      • Private Cloud: Dành riêng cho tổ chức
+      • Hybrid Cloud: Kết hợp Public + Private
+      • Community & Multi-cloud
+
+  • Key Takeaways
+      • Cloud mang lại scalability, reliability và cost efficiency
+      • 3 service models & 3 deployment models chính
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Cloud Computing là mô hình cung cấp tài nguyên linh hoạt qua internet. 
+
+  Hiểu rõ service models và deployment models giúp chọn giải pháp phù hợp cho tổ chức.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Understanding Virtualization.
+────────────────────────────────────────────────────────────────

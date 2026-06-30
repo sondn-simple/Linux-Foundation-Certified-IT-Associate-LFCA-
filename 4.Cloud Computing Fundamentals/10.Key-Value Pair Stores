@@ -1,0 +1,53 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                   KEY-VALUE PAIR STORES                                      ║
+║               (Kho Key-Value Pair)                                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Key-Value Stores
+  Mục tiêu   : etcd, Consul KV, ZooKeeper
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Key-Value Store là gì?
+      • Lưu data dưới dạng key (unique identifier) + value
+      • Linh hoạt, không như RDBMS (columns/rows)
+      • Scale tốt cho distributed system, fast lookup (single key)
+
+  • etcd
+      • Distributed KV store
+      • Hierarchical directories
+      • Watch & react to changes
+      • HTTP API, Raft protocol
+
+  • Consul KV
+      • Part of Consul (service discovery)
+      • CLI, HTTP API, UI
+      • No type restriction, 512KB limit
+      • Watches for updates
+
+  • ZooKeeper
+      • Coordination service
+      • Hierarchical znodes
+      • In-memory, high throughput
+      • Atomic transactions (pass/fail)
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Key-Value Stores rất phù hợp cho config, service discovery và distributed systems. 
+
+  etcd, Consul KV, ZooKeeper là các giải pháp phổ biến.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Logging and Monitoring Tools.
+────────────────────────────────────────────────────────────────

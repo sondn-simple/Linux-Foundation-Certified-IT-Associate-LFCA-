@@ -1,0 +1,64 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        CLOUD SECURITY                                        ║
+║               (Bảo mật Cloud)                                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Cloud Security
+  Mục tiêu   : 6 lĩnh vực chính
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Identity and Access Management (IAM)
+      • Identity (provisioning, centralized directory)
+      • Authentication (username/password, MFA)
+      • Authorization (level of access)
+      • Privileged Identity Management (PIM)
+
+  • Data Security
+      • Data at Rest (encryption)
+      • Data in Transit (SSL/TLS)
+      • Cryptography & Key Management
+      • Remote Backups, Sanitization
+
+  • Network Security
+      • Virtual Private Cloud (VPC)
+      • Network Perimeter
+      • Virtual Switches, Firewalls
+      • Network Security Groups
+
+  • Compute-based Security
+      • Hypervisors, VMs
+      • OS, Middleware, Runtime
+      • Inventory Management
+
+  • Application Security
+      • Standard Applications
+      • Microservices, APIs
+      • Containers, Serverless
+
+  • Security Monitoring and Policy
+      • Monitoring & Alerting
+      • Auditing
+      • Incident Response
+      • Policy and Governance
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Cloud Security bao gồm IAM, data, network, compute, application và monitoring/policy. 
+
+  Áp dụng multi-layer security là chìa khóa để bảo vệ tài nguyên cloud.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Conclusion to Security Fundamentals.
+────────────────────────────────────────────────────────────────

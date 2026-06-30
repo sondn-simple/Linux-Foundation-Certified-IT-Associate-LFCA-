@@ -1,0 +1,55 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                        DATA SECURITY                                         ║
+║               (Bảo mật Dữ liệu)                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Data Security
+  Mục tiêu   : Encryption strategies và tools
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Data Security Considerations
+      • Disk Encryption: Mã hóa toàn ổ đĩa
+      • Partition Encryption: Mã hóa partition
+      • File Encryption: Mã hóa file riêng lẻ
+      • Container Encryption: Encrypted virtual drive
+      • Offsite Backups: Sao lưu ngoài site
+
+  • Data Encryption Tools
+      • dm-crypt: Disk encryption subsystem trong kernel
+      • LUKS: Linux Unified Key Setup
+      • cryptsetup: User-space frontend cho dm-crypt + LUKS
+      • cryptmount: Mount encrypted volumes
+      • GPG: Encrypt/decrypt files
+
+  • Minh họa
+      • cryptsetup luksFormat
+      • luksOpen, mkfs, mount
+      • Tạo keyfile, fstab, crypttab cho auto-mount
+      • chcon, restorecon (cho context)
+
+  • Best Practices
+      • Multi-layer security
+      • Offsite backups
+      • Regular key management
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Data Security bảo vệ dữ liệu ở rest và in transit. 
+
+  Kết hợp disk/partition/file encryption và backups giúp giảm rủi ro mất mát.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Part 1: System Security.
+────────────────────────────────────────────────────────────────Part 1: System Security

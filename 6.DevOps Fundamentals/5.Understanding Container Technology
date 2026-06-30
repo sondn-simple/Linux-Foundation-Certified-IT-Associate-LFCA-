@@ -1,0 +1,54 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               UNDERSTANDING CONTAINER TECHNOLOGY                             ║
+║               (Hiểu về Container Technology)                                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Container Technology
+  Mục tiêu   : So sánh VM, Docker, Orchestration
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • So sánh VM và Container
+      • VM: Full OS + hypervisor
+      • Container: Isolated, lightweight, share host kernel
+
+  • Đặc điểm Container
+      • Isolated (namespaces, cgroups)
+      • Package all dependencies
+      • Portable, consistent
+      • Lightweight, fast deployment, increased security
+
+  • Docker
+      • Components: Daemon, Client, API, Dockerfile, Registry, Container
+      • Commands: build, run, pull, push, start, stop, kill
+
+  • Container Orchestration
+      • Automate deployment, scaling, management
+      • Scheduling, Provisioning, Scaling, Security, Health monitoring
+      • Kubernetes, Docker Swarm
+
+  • Minh họa
+      • VM vs Container diagram
+      • Docker workflow
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Container technology cách mạng hóa application development với lightweight, 
+  portable và scalable deployments.
+
+  Docker và orchestration (Kubernetes) là nền tảng DevOps hiện đại.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Distributed Version Control with Git.
+────────────────────────────────────────────────────────────────

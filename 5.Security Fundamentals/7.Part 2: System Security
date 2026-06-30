@@ -1,0 +1,58 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                  PART 2: SYSTEM SECURITY                                     ║
+║               (Phần 2: System Security)                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+TỔNG QUAN BÀI HỌC
+────────────────────────────────────────────────────────────────
+
+  Giảng viên : Matt
+  Chủ đề     : Tiếp tục System Security
+  Mục tiêu   : Thực hành concepts từ Part 1
+
+
+NỘI DUNG CHÍNH
+────────────────────────────────────────────────────────────────
+
+  • Remove Unused Packages
+      • yum remove postfix
+
+  • Update Packages
+      • yum update -y (cập nhật kernel)
+
+  • SELinux
+      • getenforce, setenforce 1 (enforcing)
+
+  • AIDE (Intrusion Detection)
+      • yum install aide
+      • Cấu hình /etc/aide.conf
+
+  • Authentication
+      • /etc/passwd : Shell (nologin cho service users)
+      • usermod -s /sbin/nologin root
+
+  • SSH Key Pairs
+      • ssh-keygen : Tạo key pair
+      • ssh-copy-id : Copy public key
+      • Login với private key + passphrase
+
+  • Minh họa
+      • Disable postfix
+      • Update kernel
+      • SSH key authentication
+
+
+KẾT LUẬN
+────────────────────────────────────────────────────────────────
+
+  Phần 2 thực hành các best practices từ Part 1: update packages, SELinux, AIDE, 
+  authentication, SSH keys.
+
+  Những bước này giúp củng cố bảo mật hệ thống.
+
+
+────────────────────────────────────────────────────────────────
+Cảm ơn bạn đã theo dõi! 
+Tiếp theo chúng ta sẽ học Cloud Security.
+────────────────────────────────────────────────────────────────
